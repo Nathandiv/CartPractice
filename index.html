@@ -6,10 +6,36 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="quantity">
+        <button class="add1" onclick="
+            Qty = Qty + 1 ;
+            alert ('Your Qty is' + Qty )">Add Qty</button>
 
- 
+<button class="add2" onclick="
+Qty = Qty + 2 ;
+alert ('Your Qty is' + Qty )">Add 2</button>
 
-    <script src="main.js"></script>
+
+<button class="add3" onclick="
+Qty = Qty + 3 ;
+alert ('Your Qty is' + Qty )">Add 3</button>
+
+
+
+<button class="clear" onclick="
+Qty = 0;
+alert ('Your Qty is' + Qty )">Clear Cart</button>
+
+
+<button class="showQ" onclick="
+            
+alert ('Your Qty is' + Qty )">Show Qty</button>
+
+</div>
+
+
+<script >
+    let Qty = 0;
+</script>
 </body>
 </html>
